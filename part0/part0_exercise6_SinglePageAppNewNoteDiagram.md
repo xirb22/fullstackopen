@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -10,4 +11,4 @@ sequenceDiagram
     Note left of server: The server updates its note array using the payload of the  POST request
     server-->>browser: 201 Created 
     deactivate server
-
+```
