@@ -25,6 +25,8 @@ const App = () => {
         onClick={handleIncrease}
         text='plus'
       />
+
+      
       <Button
         onClick={handleReset}
         text='zero'
